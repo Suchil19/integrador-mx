@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Integrador</title>
+    <!--PWA-->
+    <link rel="manifest" href="./manifest.json"> 
+<!-- partial:index.partial.html -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>STATED.</title>
+
+
+    <link href="./css/style.css" type="text/css" rel="Stylesheet" />
+    
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+  
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+    <!--FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+   
+  
+</head>
+
+<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
+   <div id="preloader"></div>
+  
+    <div id="header-hero-container">
+        <header>
+            <div class="flex container">
+                <a id="logo" href="#"><img class="logo" src="https://images.vexels.com/media/users/3/224138/isolated/preview/ad1194c5e4558e72fa53c869a57b61e1-logotipo-violeta-ondulado-abstracto.png">&nbsp;Integrador
+                    </a>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+
+                    <ul id="nav-menu">
+                        <li><a href="#" class="active">Inicio</a></li>
+                        <li><a href="#" target="_blank">Acerca de</a></li>
+                        <li><a href="#">Casos de éxito</a></li>
+                        <!--li><a href="#">About</a></li-->
+                        <!--li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li-->
+                            <li id="close-flyout"><span class="fas fa-times"></span></li>
+                            <li style="display: none;" class="logged-out menu-item">
+                                <a class=" registration" href="#" data-toggle="modal" data-target="#signinModal"><!--i class="fas fa-user"></i-->&nbsp;Accede</a>
+                            </li>
+                            <!--li style="display: none;" class="logged-out"><a href="#" data-toggle="modal" data-target="#signupModal"><i class="fas fa-clipboard"></i>&nbsp;Registrate</a></li-->
+                                <!--li style="display: none;" class="menu-item logged-in"><a class="registration" href="./clinica/promociones/avisos.html"><i class="fas fa-bell"></i>&nbsp;Promociones</a></li-->&nbsp;
+                                <li style="display: none;" class="boton-salir logged-in"><a href="#" id="logout" onclick="noticias()"><i class="fas fa-sign-out-alt"></i>&nbsp;Salir</a></li>
+                    </ul>
+
+                </nav>
+            </div>
+        </header>
+        
+        <section id="hero">
+            <div class="fade"></div>
+            <div class="hero-text">
+                <h1>Educación a distancia</h1>
+                <p>Impulsamos con tecnología la educación a distancia</p>
+                <div id="contenido">
+  
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+
+    <!--SKILLS-->
+<div class="container1">
+    <section id="skills">
+      <!--h3>Especialidades</h3-->
+      <ul class="grid2">
+  
+        
+        <li>
+        <a href="./alumnos/mi-espacio.html"> 
+        <img src="./alumnos/img/inicio/02.png" alt="comet">
+        <h4>Alumnos</h4>
+        </a>
+        </li>
+      
+        <li>
+        <a href="./colaboradores/mi-espacio.html">
+        <img src="./alumnos/img/inicio/01.png" alt="comet">
+        <h4>Colaboradores</h4>
+        </a>
+    </li>
+        
+  
+      </ul>
+      
+      </section>
+    </div>
+    <!--TERMINAN SKILLS-->
+
+    <section id="the-best">
+        <div class="flex container">
+            <img src="https://soyfri.com/wp-content/uploads/2021/10/hero-image-main.png" alt="Property 1" />
+            <div>
+                <h2>Somos la mejor opción</h2>
+                <p class="large-paragraph">Cambia tu forma de transmitir conocimientos.</p>
+                <p>Ahora tienes a tu dsposición todo para educar a los futuros líderes del país.</p>
+                <ul>
+                    <li>Integrador a tu medida</li>
+                    <li>Perfilador</li>
+                    <li>Soprte Técnico</li>
+                    <li>Capacitaciones</li>
+                    <li>Expertos</li>
+                </ul>
+                <button class="rounded">Ver más</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="properties">
+        <div class="container01">
+            <h2>Tecnologías</h2>
+            <div id="properties-slider" class="slick">
+                <div>
+                    <img src="./img/inicio/carousell/canvas.png" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">Evaluación</p>
+                        <span class="beds">Docencia</span>
+                        <span class="baths">Alumnos</span>
+
+                        <address>
+                            Herramienta de evaluación
+                        </address>
+                        <button class="rounded"><a href="https://www.instructure.com/es/canvas/educacion-superior">Ver más</a></button>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./img/inicio/carousell/moodle.png" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">Aprendizaje</p>
+                        <span class="beds">Alumno</span>
+                        <span class="baths">Profesores</span>
+                      
+                        <address>
+                            Herramienta de evaluación
+                        </address>
+                        <button class="rounded"><a href="https://moodle.org/?lang=es">Ver más</a></button>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./img/inicio/carousell/edublocks.png" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">Código</p>
+
+                        <span class="baths">Alumnos</span>
+                        <span class="sqft">Profesores</span>
+                        <address>
+                            Herramienta para programar
+                        </address>
+                        <button class="rounded"><a href="https://edublocks.org/">Ver más</a></button>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./img/inicio/carousell/moodle.png" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">Aprendizaje</p>
+                        <span class="beds">Alumno</span>
+                        <span class="baths">Profesores</span>
+                        
+                        <address>
+                            Herramienta de evaluación
+                        </address>
+                        <button class="rounded"><a href="https://moodle.org/?lang=es">Ver más</a></button>
+                    </div>
+                </div>
+
+                <!--div>
+                    <img src="./img/inicio/carousell/carousel04.jpeg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$3,400,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>
+                            480 12th, Unit 14, San Francisco, CA
+                        </address>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="./img/inicio/carousell/carousel05.jpeg" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">$3,400,000</p>
+                        <span class="beds">6 beds</span>
+                        <span class="baths">4 baths</span>
+                        <span class="sqft">4,250 sqft.</span>
+                        <address>
+                            480 12th, Unit 14, San Francisco, CA
+                        </address>
+                    </div>
+                </div-->
+
+
+                <div>
+                    <img src="./img/inicio/carousell/edublocks.png" alt="Property 1" />
+                    <div class="property-details">
+                        <p class="price">Código</p>
+
+                        <span class="baths">Alumnos</span>
+                        <span class="sqft">Profesores</span>
+                        <address>
+                            Herramienta para programar
+                        </address>
+                        <button class="rounded"><a href="">Ver más</a></button>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!--button class="rounded">Ver todos los servicios</button-->
+        </div>
+    </section>
+
+
+    <!--section id="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="flex">
+                <div>
+                    <span class="fas fa-home"></span>
+                    <h4>Find a Property.</h4>
+                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                </div>
+
+                <div>
+                    <span class="fas fa-dollar-sign"></span>
+                    <h4>Buy a Property.</h4>
+                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                </div>
+
+                <div>
+                    <span class="fas fa-chart-line"></span>
+                    <h4>Investing.</h4>
+                    <p>Lorem ipsum dolor sit amet consectectur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section-->
+
+
+    <!--section id="agents">
+        <div class="container">
+            <h2>Agents</h2>
+            <p class="large-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus minima neque tempora reiciendis.</p>
+
+            <div class="flex">
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_1.jpg" alt="Realtor 1" />
+                    <h3>Kaiara Spencer</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_2.jpg" alt="Realtor 1" />
+                    <h3>Dave Simpson</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_3.jpg" alt="Realtor 1" />
+                    <h3>Ben Thompson</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_4.jpg" alt="Realtor 1" />
+                    <h3>Kyla Stewart</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_5.jpg" alt="Realtor 1" />
+                    <h3>Rich Moffatt</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+
+                <div class="card">
+                    <img src="https://onclickwebdesign.com/wp-content/uploads/person_6.jpg" alt="Realtor 1" />
+                    <h3>Stuart Redman</h3>
+                    <p>Real Estate Agent</p>
+                </div>
+            </div>
+        </div>
+    </section-->
+
+
+
+    <section id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="flex">
+                <div>
+                    <div class="fas fa-home"></div>
+                    <div class="services-card-right">
+                        <h3>Instalaciones</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Ver más</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-dollar-sign"></div>
+                    <div class="services-card-right">
+                        <h3>Ahorro</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Ver más</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-chart-line"></div>
+                    <div class="services-card-right">
+                        <h3>Mejor Rendimiento</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Ver más</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-building"></div>
+                    <div class="services-card-right">
+                        <h3>Escuelas</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Ver más</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-search"></div>
+                    <div class="services-card-right">
+                        <h3>Investigación</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Ver más</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="fas fa-mobile-alt"></div>
+                    <div class="services-card-right">
+                        <h3>Desarrollo</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
+                        <a href="#">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--section id="testimonials">
+        <div class="container">
+            <h2>What Our Clients Are Saying</h2>
+            <div id="testimonials-slider">
+                <div>
+                    <blockquote>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="https://onclickwebdesign.com/wp-content/uploads/person_7.jpg" alt="Client 7" />
+                        <p>Nick Andros</p>
+                    </div>
+                </div>
+
+                <div>
+                    <blockquote>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="https://onclickwebdesign.com/wp-content/uploads/person_5.jpg" alt="Client 7" />
+                        <p>Larry Underwood</p>
+                    </div>
+                </div>
+
+                <div>
+                    <blockquote>
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nostrum vitae explicabo dolore ratione. Quia iure quod ipsa blanditiis sint nulla a nam veritatis ex eos. Dicta molestiae dolorum laudantium."</p>
+                    </blockquote>
+                    <div class="testimonials-caption">
+                        <img src="https://onclickwebdesign.com/wp-content/uploads/person_8.jpg" alt="Client 7" />
+                        <p>Fran Goldsmith</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+
+            <div class="flex">
+                <div id="form-container">
+                    <h3>Contact Form</h3>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" />
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" />
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" />
+
+                        <label for="message">Message</label>
+                        <textarea id="message">Write your message here..</textarea>
+
+                        <button class="rounded">Send Message</button>
+                    </form>
+                </div>
+
+                <div id="address-container">
+                    <label>Address</label>
+                    <address>
+                        20377 Evergreen Terrace Mountain View, California, USA 
+                    </address>
+
+                    <label>Phone</label>
+                    <a href="#">232-232-2323</a>
+
+                    <label>Email Address</label>
+                    <a href="#">ouremail@domain.com</a>
+                </div>
+            </div>
+        </div>
+    </section-->
+
+
+      <!--BOOTSTRAP SCRIPTS-->
+
+<!-- REGISTRO FIREBASE -->
+  <!--MAIN CONTENT-->
+  <div class="container p-5" style="z-index:1">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <ul class="list-group posts">
+                
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!--BOOTSTRAP SCRIPTS-->
+  
+      <!-- Modal  SignUP-->
+      <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+         <div class="modal-content">
+           <div class="modal-header">
+            <h6 class="modal-title" id="exampleModalLabel">Registro:
+              Contraseña con al menos 6 caracteres
+            </h6>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+           </div>
+           <div class="modal-body">
+            <form id="signup-form">
+              <div class="form-group">
+                 <input type="text" id="signup-email" class="form-control"
+                 placeholder="E-mail" required>
+              </div>
+              <div class="form-group">
+                 <input type="password" id="signup-password" class="form-control"
+                 placeholder="Contraseña" required>
+              </div>
+              <button type="submit" class="btn btn-primary">SignUp</button>
+            </form>
+           </div>
+         </div>
+        </div>
+      </div>
+                 
+                 
+                 
+                  <!-- Modal  SignIn-->
+                  <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                        <h6 class="modal-title" id="exampleModalLabel">Ingresa con tu correo de Gmail a nuestra plataforma y mantente informado sobre
+                          promociones y avisos importantes
+                        </h6>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                       </div>
+                       <div class="modal-body">
+                          
+                        <form id="login-form">
+                           
+                          <!--div class="form-group">
+                             <input type="text" id="login-email" class="form-control"
+                             placeholder="E-mail" required>
+                          </div>
+                          <div class="form-group">
+                             <input type="password" id="login-password" class="form-control"
+                             placeholder="Contraseña" required>
+                          </div>
+                          
+                          <button type="submit" class="btn btn-info btn-block">Ingresa</button-->
+                          
+                          <button type="button" class="btn btn-success btn-block black-background white" id="googleLogin"><i class="fab fa-google" aria-hidden="true"></i>&nbsp;Ingresa o Regístrate con Gmail</button>
+                          <!--button type="submit" class="btn btn-primary btn-block" id="facebookLogin"><i class="fab fa-facebook"></i>&nbsp;Ingresa o Regístrate con Facebook</button-->
+                        </form>
+                       </div>
+                     </div>
+                    </div>
+                  </div>
+
+                  
+
+    <footer>
+        <div class="flex container">
+            <div class="footer-about">
+                <h5>Integrador</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+            </div>
+
+            <div class="footer-quick-links">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Casos de Éxito</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-subscribe">
+                <h5>Integrador</h5>
+                <!--div id="subscribe-container">
+                    <input type="text" placeholder="Enter Email" />
+                    <button class="right-rounded">Send</button>
+                </div-->
+
+                <h5 class="follow-us">Siguenos</h5>
+                <ul>
+                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <small>
+            Copyright &copy; 2022 | Chadwick Carreto, Luis Suchil <!--span class="fa fa-heart"></span--> by <a href="https://www.suchilgaming.com">LS</a>
+        </small>
+    </footer>
+
+
+
+
+
+          
+                <!--FIREBASE SCRIPTS-->
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-app.js"></script>
+
+            
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+     <script src="https://www.gstatic.com/firebasejs/8.6.3/firebase-analytics.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+              
+                <script>
+                   // Your web app's Firebase configuration
+                   var firebaseConfig = {
+     apiKey: "AIzaSyBu0Zk9fF00Ozr1huJHAfzApST6cStNSRo",
+    authDomain: "integrador-ab669.firebaseapp.com",
+    projectId: "integrador-ab669",
+    storageBucket: "integrador-ab669.appspot.com",
+    messagingSenderId: "625115839172",
+    appId: "1:625115839172:web:f37e25c92ac6b90a36e791",
+    measurementId: "G-PTQ50PD72R"
+  };
+            
+                   // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      const auth = firebase.auth();
+      // FireStore base de datos
+      const fs = firebase.firestore();
+      firebase.analytics();
+                </script>
+                <!--TERMINA FIREBASE-->
+
+
+
+    <!--Registro-->
+    <script src="./registro.js"></script>
+
+    <script src="./js/script.js"></script>
+
+      <!-- PWA -->
+      <script src="./script.js"></script>
+
+    <!--script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.15.0/popper.min.js'></script-->
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+
+<!-- partial -->
+  
+</body>
+</html>
+
